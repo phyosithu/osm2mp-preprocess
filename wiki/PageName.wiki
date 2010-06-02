@@ -1,0 +1,29 @@
+#summary osm2m-preprocess
+
+= описание =
+
+Предпроцесс над osm файлом для osm2mp используя osmosis и tag_transform
+
+= принцип работы =
+
+заменяет комбинацию тегов
+  <tag k="amenity" v="restaurant"/>
+  <tag k="cuisine" v="chinese"/>
+на
+  <tag k="mp_code" v="0x2a04"/>
+
+для osm2mp в poi.cfg добавить для каждого кода
+
+mp_code 0x2a04 0x2a04
+
+= Пример использования =
+
+для гармина
+osmosis --read-xml file=in.osm --tag-transform file=garmin.xml --write-xml file=out.osm
+
+для навитела
+osmosis --read-xml file=in.osm --tag-transform file=navitel.xml --write-xml file=out.osm
+
+что сделано
+для гармина - типы ресторанов
+для навитела дополнительно - места поклонения
