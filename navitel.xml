@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<translations>
+
+  <translation>
+    <name>Православный храм</name>
+    <match mode="and" type="node">
+      <tag k="amenity" v="place_of_worship"/>
+      <tag k="religion" v="christian"/>
+      <tag k="denomination" v="orthodox"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0xF101"/>
+    </output>
+   </translation>
+
+  <translation>
+    <name>Католический храм</name>
+    <match mode="and" type="node">
+      <tag k="amenity" v="place_of_worship"/>
+      <tag k="religion" v="christian"/>
+      <tag k="denomination" v="catholic"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0xF102"/>
+    </output>
+   </translation>
+
+  <translation>
+    <name>Протестантский храм</name>
+    <match mode="and" type="node">
+      <tag k="amenity" v="place_of_worship"/>
+      <tag k="religion" v="christian"/>
+      <tag k="denomination" v="protestatnt"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0xF103"/>
+    </output>
+   </translation>
+
+  <translation>
+    <name>Мечети</name>
+    <match mode="and" type="node">
+      <tag k="amenity" v="place_of_worship"/>
+      <tag k="religion" v="muslim"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0xF104"/>
+    </output>
+   </translation>
+
+  <translation>
+    <name>Синагоги</name>
+    <match mode="and" type="node">
+      <tag k="amenity" v="place_of_worship"/>
+      <tag k="religion" v="jewish"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0xF105"/>
+    </output>
+   </translation>
+
+  <translation>
+    <name>Пагода</name>
+    <match mode="and" type="node">
+      <tag k="amenity" v="place_of_worship"/>
+      <tag k="religion" v="buddhist"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0xF106"/>
+    </output>
+   </translation>
+
+  <translation>
+    <name>Ресторан (азиатская кухня)</name>
+    <match mode="and" type="node">
+      <tag k="amenity" v="restaurant"/>
+      <tag k="cuisine" v="asian"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0x2A02"/>
+    </output>
+   </translation>
+
+  <translation>
+    <name>Ресторан (китайская кухня)</name>
+    <match mode="and" type="node">
+      <tag k="amenity" v="restaurant"/>
+      <tag k="cuisine" v="chinese"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0x2A04"/>
+    </output>
+   </translation>
+
+  <translation>
+    <name>Ресторан (итальянская кухня)</name>
+    <match mode="and" type="node">
+      <tag k="amenity" v="restaurant"/>
+      <tag k="cuisine" v="italian"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0x2A08"/>
+    </output>
+   </translation>
+
+  <translation>
+    <name>Пиццерия</name>
+    <match mode="and" type="node">
+      <tag k="amenity" v="restaurant"/>
+      <tag k="cuisine" v="pizza"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0x2A0A"/>
+    </output>
+   </translation>
+
+  <translation>
+    <name>Ресторан (мексиканская кухня)</name>
+    <match mode="and" type="node">
+      <tag k="amenity" v="restaurant"/>
+      <tag k="cuisine" v="mexican"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0x2A09"/>
+    </output>
+   </translation>
+
+  <translation>
+    <name>Ресторан (французская кухня)</name>
+    <match mode="and" type="node">
+      <tag k="amenity" v="restaurant"/>
+      <tag k="cuisine" v="french"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0x2A0F"/>
+    </output>
+   </translation>
+
+  <translation>
+    <name>Ресторан (немецкая кухня)</name>
+    <match mode="and" type="node">
+      <tag k="amenity" v="restaurant"/>
+      <tag k="cuisine" v="german"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0x2A10"/>
+    </output>
+   </translation>
+
+ </translations>

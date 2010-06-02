@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<translations>
+  <translation>
+    <name>Ресторан (азиатская кухня)</name>
+    <match mode="and">
+      <tag k="amenity" v="restaurant"/>
+      <tag k="cuisine" v="asian"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0x2a02"/>
+    </output>
+   </translation>
+
+  <translation>
+    <name>Ресторан (китайская кухня)</name>
+    <match mode="and">
+      <tag k="amenity" v="restaurant"/>
+      <tag k="cuisine" v="chinese"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0x2a04"/>
+    </output>
+   </translation>
+
+  <translation>
+    <name>Ресторан (итальянская кухня)</name>
+    <match mode="and">
+      <tag k="amenity" v="restaurant"/>
+      <tag k="cuisine" v="italian"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0x2a08"/>
+    </output>
+   </translation>
+
+  <translation>
+    <name>Пиццерия</name>
+    <match mode="and">
+      <tag k="amenity" v="restaurant"/>
+      <tag k="cuisine" v="pizza"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0x2a0a"/>
+    </output>
+   </translation>
+
+  <translation>
+    <name>Ресторан (мексиканская кухня)</name>
+    <match mode="and">
+      <tag k="amenity" v="restaurant"/>
+      <tag k="cuisine" v="mexican"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0x2a09"/>
+    </output>
+   </translation>
+
+  <translation>
+    <name>Ресторан (мексиканская кухня)</name>
+    <match mode="and">
+      <tag k="amenity" v="restaurant"/>
+      <tag k="cuisine" v="french"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0x2a0s"/>
+    </output>
+   </translation>
+
+  <translation>
+    <name>Ресторан (французская кухня)</name>
+    <match mode="and">
+      <tag k="amenity" v="restaurant"/>
+      <tag k="cuisine" v="german"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="mp_code" v="0x2a10"/>
+    </output>
+   </translation>
+</translations>
